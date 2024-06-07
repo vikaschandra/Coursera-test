@@ -10,6 +10,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 20px;
+    font-size: 2.8em; /* 48px/16=2.8em */
 }
 
 div#container {
@@ -27,19 +28,18 @@ p.pTitle {
     border-top: 0px;
     border-right: 0px;
     text-align: center;
-    /* margin-left: 90%; */
     background-color: rgb(0, 255, 13);
     font-weight: bold;
     font-family: Arial;
+    font-size: 2.8em; /* 45px/16=2.8em */
 
-    padding: 0px 20px;
+    padding: 0px 30px;
     position: absolute;
     top: 0;
     right: 0;
 }
 #p1Title {
     background-color: rgb(0, 255, 13);
-   
 }
 #p2Title {
     background-color: rgb(254, 254, 254);
@@ -52,18 +52,21 @@ p {
   font-family: 'Courier New', Courier, monospace;
 }
 #p1 {
-    margin-top: 35px;
+    margin-top: 50px;
     position: relative;
+    font-size: 1em;
 }
 
 #p2 {
-    margin-top: 35px;
+    margin-top: 50px;
     position: relative;
+    font-size: 1em;
 }
 
 #p3 {
-    margin-top: 35px;
+    margin-top: 50px;
     position: relative;
+    font-size: 1em;
 
 }
 

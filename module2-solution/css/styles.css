@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+  margin-left: 20px;
+}
 
 h1 {
     text-align: center;
@@ -14,8 +17,9 @@ div#container {
     position: relative;
     top: 60px;
     border: 2px solid rgb(78, 37, 37);
-    
     padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 p.pTitle {
@@ -25,6 +29,8 @@ p.pTitle {
     text-align: center;
     /* margin-left: 90%; */
     background-color: rgb(0, 255, 13);
+    font-weight: bold;
+    font-family: Arial;
 
     padding: 0px 20px;
     position: absolute;
@@ -33,6 +39,7 @@ p.pTitle {
 }
 #p1Title {
     background-color: rgb(0, 255, 13);
+   
 }
 #p2Title {
     background-color: rgb(254, 254, 254);
@@ -41,6 +48,9 @@ p.pTitle {
     background-color: rgb(138, 118, 121);
 }
 
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
 #p1 {
     margin-top: 35px;
     position: relative;
@@ -54,6 +64,7 @@ p.pTitle {
 #p3 {
     margin-top: 35px;
     position: relative;
+
 }
 
 /********** Large devices only **********/
@@ -71,7 +82,7 @@ p.pTitle {
       width: 25%;
     }
     .col-lg-4 {
-      width: 33.33%;
+      width: calc(33.33% - 20px);
     }
     .col-lg-5 {
       width: 41.66%;
@@ -120,7 +131,7 @@ p.pTitle {
       width: 41.66%;
     }
     .col-md-6 {
-      width: 50%;
+      width: calc(50% - 20px);
     }
     .col-md-7 {
       width: 58.33%;
@@ -138,6 +149,6 @@ p.pTitle {
       width: 91.66%;
     }
     .col-md-12 {
-      width: 100%;
+      width: calc(100% - 20px);
     }
   }
